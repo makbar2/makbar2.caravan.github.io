@@ -1,0 +1,15 @@
+*{
+    color: white;   
+    overflow-wrap: break-word;
+}
+
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: rgb(70, 70, 70) !important;
+}
+
+
+#serviceCard{
+    background-color: rgb(7, 92, 11) !important;
+}

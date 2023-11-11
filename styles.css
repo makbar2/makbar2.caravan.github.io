@@ -1,21 +1,27 @@
-*{
-    color: white;   
-   
-    font-size: 18px;
-}
-
-body{
+/* Add this CSS for equal borders on smaller screens */
+@media (max-width: 767px) {
+    .equal-border {
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+  
+  /* Your existing CSS */
+  * {
+    color: white;
+  }
+  
+  body {
     overflow-x: hidden;
     max-width: 100%;
     background-color: rgb(70, 70, 70) !important;
-}
-
-
-#serviceCard{
+  }
+  
+  #serviceCard {
     background-color: rgb(7, 92, 11) !important;
-}
-
-.list-group-item{
+  }
+  
+  .list-group-item {
     color: white !important;
-}
-
+  }
+  

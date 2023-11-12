@@ -7,21 +7,24 @@
   }
   
   /* Your existing CSS */
-  * {
-    color: white;
-  }
+* {
+   
+  color: white;
+    
+}
   
-  body {
-    overflow-x: hidden;
-    max-width: 100%;
-    background-color: rgb(70, 70, 70) !important;
-  }
-  
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  background-color: rgb(70, 70, 70) !important;
+}
   #serviceCard {
-    background-color: rgb(7, 92, 11) !important;
-  }
+background-color: rgb(7, 92, 11) !important;}
   
-  .list-group-item {
-    color: white !important;
-  }
+.list-group-item {
+  color: white !important;
+}
   
+.iconHover:hover{
+  transform: scale(1.1) !important;
+}

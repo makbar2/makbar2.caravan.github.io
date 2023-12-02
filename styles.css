@@ -1,13 +1,11 @@
 
 
-  /* Your existing CSS */
 * {
    
   color: white;
   font-family: "Roboto", serif;
     
-}
-  
+} 
 body {
   overflow-x: hidden;
   max-width: 100%;

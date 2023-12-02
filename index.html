@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cross Country Caravan Care</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
     />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="#">Cross Country Care</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -41,7 +42,12 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
                   Services
                 </a>
               </li>
@@ -50,7 +56,7 @@
         </nav>
       </header>
       <main>
-        <div class="row">
+        <div class="row pb-4">
           <div class="col-md">
             <div id="logo" class="row border-bottom border-white">
               <picture>
@@ -64,7 +70,7 @@
             </div>
             <div id="about" class="row pt-2">
               <div class="row">
-                <h2 class="text-center border-bottom">About me</h2>
+                <h2 class="text-center ">About me</h2>
                 <p>
                   Hello! My name's Todd. I'm an experienced Caravan Engineer and
                   professional coffee drinker. I provide Caravans Servicing
@@ -73,10 +79,7 @@
                   contact me if you have any questions or enquiries.
                 </p>
               </div>
-              <div class="row">
-
-
-              </div>
+ 
             </div>
             <div id="information" class="">
               <div class="row pb-3">
@@ -116,7 +119,7 @@
             </div>
             <div id="locations" class="">
               
-              <div class="text-center border-top">
+              <div class="text-center border-top pt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -132,11 +135,11 @@
               </div>
               <h2 class="text-center">The areas that I cover are:</h2>
               <ul id="location" class="list-group list-group-flush text-center">
-                <li class="list-group-item bg-transparent">Anglesey</li>
                 <li class="list-group-item bg-transparent">Cheshire</li>
                 <li class="list-group-item bg-transparent">Stockport</li>
                 <li class="list-group-item bg-transparent">Knutsford</li>
                 <li class="list-group-item bg-transparent">High Peak</li>
+                <li class="list-group-item bg-transparent">Anglesey</li>
               </ul>
             </div>
           </div>
@@ -144,6 +147,238 @@
             <picture>
               <img src="images/theTodd.jpg" class="img-fluid" />
             </picture>
+          </div>
+        </div>
+        <div id="services" class="row pt-4 pb-1 bg-success rounded-top">
+            <h1 class="text-center">Services</h1>
+            <!--Main two services-->
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="card-title text-center">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                        <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
+                        <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                      </svg>
+                    </div>
+                    <h5>Full Caravan Service</h5>
+                  </div>
+                  <p class="card-text">
+                    Is your caravan in need of some TLC? I  can perform a thorough inspection and service to keep it running smoothly. 
+                  </p>
+                  <p class="card-text">
+                    Prices start at $240 for a Single Axle caravan and $280 for a Twin Axle.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md ">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="card-title text-center">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                        <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
+                        <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                      </svg>
+                    </div>
+                    <h5>Motorhome Habitation Service</h5>
+                  </div>
+                  <p class="card-text">
+                    Safety and comfort are our priorities. 
+                    We offer professional habitation checks at just $240 to make sure your caravan is in optimal living condition.
+                  </p>
+                </div>
+              </div>
+              <!-- <h2 class="text-center">Motorhome Habitation Service</h2>
+              <p>
+                Safety and comfort are our priorities. 
+                We offer professional habitation checks at just $240 to make sure your caravan is in optimal living condition.
+              </p> -->
+            </div>
+
+        </div>
+          <!--Oher services-->
+        <div class="row pt-1 pb-2 bg-success rounded-bottom">
+          <div class="accordion " id="accordionExample">
+            <div id="waterRepair" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controlsOne">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-droplet-fill" viewBox="0 0 16 16">
+                      <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6M6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13Z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Water Heater Repairs</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    I'll make sure that your water heater is tip top shape for your next outing !
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="voltRepair" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                      <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>12 Volt and 230 Volt Installations and Repairs</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    I like touching live cables, it gives me a nice shock like a strong cup of coffee
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="fridgeRepair" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-thermometer-snow" viewBox="0 0 16 16">
+                      <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V9.5a.5.5 0 0 1 1 0v1.585A1.5 1.5 0 0 1 5 12.5"/>
+                      <path d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1m5 1a.5.5 0 0 1 .5.5v1.293l.646-.647a.5.5 0 0 1 .708.708L9 5.207v1.927l1.669-.963.495-1.85a.5.5 0 1 1 .966.26l-.237.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.884.237a.5.5 0 1 1-.26.966l-1.848-.495L9.5 8l1.669.963 1.849-.495a.5.5 0 1 1 .258.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.237.883a.5.5 0 1 1-.966.258L10.67 9.83 9 8.866v1.927l1.354 1.353a.5.5 0 0 1-.708.708L9 12.207V13.5a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Fridge repairs</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Is your fridge playing up ? Don't fret i'll sort it out. Gotta keep those bevvies cold and your snacks proper fresh for your journey.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="overSealing" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+                      <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Oversealing all external joints</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    This yep
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+            <div id="chasisRepair" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                      <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61"/>
+                      <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9m-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376M3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Chasis service and repairs</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    This is some text
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="toiletRepair" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bucket-fill" viewBox="0 0 16 16">
+                      <path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Toilet repairs </span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    You don't want to have to resort to a bucket because of your faulty toilet
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="solarPanel" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun-fill" viewBox="0 0 16 16">
+                      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Solar panel Installation</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Let the sun power your abode from home !
+                  </p>
+                </div>
+              </div>
+            </div>          
+
+            <div id="dampReport" class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <div class="pe-4 4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moisture" viewBox="0 0 16 16">
+                      <path d="M13.5 0a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V7.5h-1.5a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V15h-1.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .5-.5V.5a.5.5 0 0 0-.5-.5zM7 1.5l.364-.343a.5.5 0 0 0-.728 0l-.002.002-.006.007-.022.023-.08.088a28.458 28.458 0 0 0-1.274 1.517c-.769.983-1.714 2.325-2.385 3.727C2.368 7.564 2 8.682 2 9.733 2 12.614 4.212 15 7 15s5-2.386 5-5.267c0-1.05-.368-2.169-.867-3.212-.671-1.402-1.616-2.744-2.385-3.727a28.458 28.458 0 0 0-1.354-1.605l-.022-.023-.006-.007-.002-.001zm0 0-.364-.343zm-.016.766L7 2.247l.016.019c.24.274.572.667.944 1.144.611.781 1.32 1.776 1.901 2.827H4.14c.58-1.051 1.29-2.046 1.9-2.827.373-.477.706-.87.945-1.144zM3 9.733c0-.755.244-1.612.638-2.496h6.724c.395.884.638 1.741.638 2.496C11 12.117 9.182 14 7 14s-4-1.883-4-4.267"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Damp reports</span>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Is your caravan moist ?
+                  </p>
+                </div>
+              </div>
+            </div> 
           </div>
         </div>
       </main>

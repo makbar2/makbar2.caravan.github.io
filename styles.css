@@ -16,14 +16,12 @@ body {
   max-width: 50%;
   max-height: 50%;
 }
-#mainPageImage{
-  max-width: 636px;
-  max-height: 844px;
+
+
+
+#serviceCard {
+  background-color: rgb(7, 92, 11) !important;
 }
-
-
-  #serviceCard {
-background-color: rgb(7, 92, 11) !important;}
   
 .list-group-item {
   color: white !important;

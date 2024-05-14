@@ -1,58 +1,85 @@
+*{
+    font-family: "Roboto", serif;
+}
 
+body{
+    margin: 0;
+    color: white;
+    background-image: url("/makbar2.caravan.github.io/images/layered-waves-haikei.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    border-radius: 87px;
+    background: #377ebb;
+    box-shadow:  11px 11px 22px #367bb7,
+                 -11px -11px 22px #3881bf;
+}
 
-* {
+.nav-scroll {
+    box-shadow: none !important;
+}
+
+header{
+    top: 0;
+    position:  sticky!important;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+.col{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
    
-  color: white;
-  font-family: "Roboto", serif;
-    
-} 
-body {
-  overflow-x: hidden;
-  max-width: 100%;
-  background-color: rgb(70, 70, 70) !important;
-}
-.mcea
-{
-  max-width: 50%;
-  max-height: 50%;
+
 }
 
-
-
-#serviceCard {
-  background-color: rgb(7, 92, 11) !important;
+.image{
+    width: 80%;
+    height: 80%;
 }
+
+.row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   
-.list-group-item {
-  color: white !important;
 }
+
+@media (max-width: 767px) {
+    .row {
+      flex-direction: column; /* Stack rows as columns on small screens */
+    }
+}
+.card{
+    padding: 2%;
+    border-radius: 3px;
+    background: #454545;
+    box-shadow:  34px 34px 69px #3b3b3b,
+                 -34px -34px 69px #4f4f4f;
+}
+
+.icon{
+ 
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+  }
   
-.iconHover:hover{
-  transform: scale(1.1) !important;
-}
-
-.accordion-item{
-  border: rgb(33, 37, 41) ;
-}
-
-
-.accordion-button:not(.coillapsed)
-{
-  background: rgb(33, 37, 41);
-}
-
-
-.accordion-button:after {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-}
-
-
-.accordion-body{
-  border: white;
-  background-color: rgb(67, 75, 82);
-}
-
-.accordion-button:focus{
-  box-shadow: none;
-  outline: none;
-}

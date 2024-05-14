@@ -1,408 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Caravan Care</title>
-    <meta name="description" content="caravan repair website">
-    <meta  name="keywords" content="caravan,repair,Habitation,service">
-    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="./">
-                  Home 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  Contact 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">
-                  Services
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <main class="pb-4">
-        <div class="row pb-4">
-          <div class="col-md">
-            <div id="logo" class="row border-bottom border-white">
-              <picture>
+</head>
+<body>
+    <header>
+        <nav class="row" id="navbar">
+          <ul>
+            <li class="item">
+              <a  href="./">
+                Home 
+              </a>
+            </li>
+            <li >
+              <a  href="#contact">
+                Contact 
+              </a>
+            </li>
+            <li >
+              <a  href="#services">
+                Services
+              </a>
+            </li>
+          </ul>
+        </nav> 
+    </header>
+    <main>
+        <div class="logo">
+            <picture>
                 <img
                   src="images/logo-transparentWhiteFontTemp-png.png"
                   alt="CountryCaravanLogo"
-                  class="img-fluid"
                   style="width: 100%"
                 />
               </picture>
+        </div>
+        <div class="row">
+          <section class=" col">
+            <div class="card">
+              <h2>About me</h2>
+              <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vel facere modi sunt nobis saepe culpa repellat? Assumenda laboriosam rem recusandae nam eos voluptas dolorum ipsam deleniti, autem quasi sed!
+              </p>
+              <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae, temporibus dignissimos vel et quisquam ullam tempora dolorem cupiditate, animi cum distinctio cumque. Beatae impedit laboriosam vitae ea saepe soluta.
+              </p>
             </div>
-            <div id="about" class="row pt-2">
-              <div class="row">
-                <h2 class="text-center ">About me</h2>
-                <p>
-                  Hello! My name's Todd. I'm an experienced Caravan Engineer who is registered with the MCEA, 
-                  so you can be assured you are getting someone who is trained to the highest industry standards. 
-                  Besides being a professional coffee drinker, as a child all our holidays were spent in our touring caravan 
-                  so they’ve always been like a second home to me!
-                </p>
-                <p>
-                  I provide Caravan Servicing Repairs, Motorhome and Campervan Habitation Checks, Solar Panel Installations and much more! 
-                  Please don't hesitate to contact me if you have any questions or enquiries. 
-                </p>
-              </div>
- 
-            </div>
-            <div id="contact" class="">
-              <div class="row pb-3">
-                <div id="email" class="col-md pt-1 text-center iconHover">
-                  <a href="mailto:countrycaravancare@gmail.com" class="text-decoration-none">
 
-                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
-                          <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
-                          <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
-                      </svg>
-                      <div class="pt-2">
-                          countrycaravancare@gmail.com
-                      </div>
-                  </a>
-                </div>
-                <div id="phoneNumber" class="iconHover col-md pt-1 text-center ">
-                  <a href="tel:07851816100" class="text-decoration-none">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                      </svg>
-                      <div class="pt-2">
-                          0785 18 16 100
-                      </div>
-                  </a>
-                </div>
-                <div id="phoneNumber" class="iconHover col-md pt-1 text-center ">
-                  <a href="https://www.facebook.com/profile.php?id=61550717708822" class="text-decoration-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                    </svg>
-                      <div class="pt-2">
-                          Facebook
-                      </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div id="locations pt-2" class="">
-              
-              <div class="text-center border-top pt-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="currentColor"
-                  class="bi bi-geo-alt-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-                  />
-                </svg>
-              </div>
-              <h2 class="text-center">The areas that I cover are:</h2>
-              <ul id="location" class="list-group list-group-flush text-center">
-                <li class="list-group-item bg-transparent">Cheshire</li>
-                <li class="list-group-item bg-transparent">Stockport</li>
-                <li class="list-group-item bg-transparent">Knutsford</li>
-                <li class="list-group-item bg-transparent">High Peak</li>
-                <li class="list-group-item bg-transparent">Anglesey</li>
-              </ul>
-            </div>
-          </div>
-          <div id="image" class="col-md d-flex justify-content-center align-items-center text-center">
+          </section>
+          <div class="col">
             <picture>
-              <img src="images/travelling-6907267_1920.jpg" class="img-fluid img-thumbnail" alt="temporary photo" />
+              <img src="images/travelling-6907267_1920.jpg" class="image">
             </picture>
           </div>
         </div>
-        <div id="services" class="row pt-4 pb-1 bg-success rounded-top">
-            <h1 class="text-center">Services</h1>
-            <!--Main two services-->
-            <div class="col-md pb-2">
-              <div class="card bg-dark text-light">
-                <div class="card-body">
-                  <div class="card-title text-center">
-                    <div>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
-                        <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
-                        <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
-                      </svg>
+
+        <section class="col">
+            <h2>Contact Information</h2>
+            <div class="row">
+              <div class="icon" id="email" >
+                <a href="mailto:countrycaravancare@gmail.com">
+  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+                        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+                    </svg>
+                    <div >
+                        countrycaravancare@gmail.com
                     </div>
-                    <h5>Full Caravan Service</h5>
-                  </div>
-                  <p class="card-text">
-                    This is a full safety check of all the appliances gas and electric, inspection of the brakes and chassis, external and internal 
-                    components and a full damp report of the caravan.
-                  </p>
-                  <p class="card-text">
-                    Prices start at £240 for a Single Axle caravan and £280 for a Twin Axle.
-                  </p>
-                </div>
+                </a>
               </div>
-            </div>
-            <div class="col-md pb-2">
-              <div class="card bg-dark text-light">
-                <div class="card-body">
-                  <div class="card-title text-center">
+              <div class="icon" id="phoneNumber" >
+                <a href="tel:07851816100" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
                     <div>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
-                        <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
-                        <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
-                      </svg>
+                        0785 18 16 100
                     </div>
-                    <h5>Motorhome Habitation Service</h5>
-                  </div>
-                  <p class="card-text">
-                    I will ensure that your home on wheels is in top-notch condition. From checking the gas and water systems
-                    to ensuring all the electrical bits are humming along. Think of it as a spa day for your caravan.
-                  </p>
-                </div>
+                </a>
               </div>
+              <div class="icon" id="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61550717708822" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                    <div>
+                        Facebook
+                    </div>
+                </a>
             </div>
 
-        </div>
-
-          <div class="row pt-1 pb-2 bg-success rounded-bottom">
-    
-          <div class="accordion " id="accordionExample">
-            <div id="waterRepair" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controlsOne">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-droplet-fill" viewBox="0 0 16 16">
-                      <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6M6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13Z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Water Heater Repairs</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    Hot showers are a must, even when you're on the move. I will swiftly tackle any water heater hiccups, 
-                    so you can enjoy the luxury of a warm shower wherever your caravan takes you.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div id="voltRepair" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
-                      <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>12 Volt and 230 Volt Installations and Repairs</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    Whether it's setting up a new power system or fixing an existing one, i've got the volts covered. 
-                    Trust me to handle your caravan's electrical needs with finesse and expertise.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div id="fridgeRepair" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-thermometer-snow" viewBox="0 0 16 16">
-                      <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V9.5a.5.5 0 0 1 1 0v1.585A1.5 1.5 0 0 1 5 12.5"/>
-                      <path d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1m5 1a.5.5 0 0 1 .5.5v1.293l.646-.647a.5.5 0 0 1 .708.708L9 5.207v1.927l1.669-.963.495-1.85a.5.5 0 1 1 .966.26l-.237.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.884.237a.5.5 0 1 1-.26.966l-1.848-.495L9.5 8l1.669.963 1.849-.495a.5.5 0 1 1 .258.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.237.883a.5.5 0 1 1-.966.258L10.67 9.83 9 8.866v1.927l1.354 1.353a.5.5 0 0 1-.708.708L9 12.207V13.5a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Fridge repairs</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseEight" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    Don't let a malfunctioning fridge spoil your on-the-road feast. I will have your fridge humming back to life, 
-                    keeping your snacks cool and your drinks refreshing.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div id="overSealing" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
-                      <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Oversealing all external bonds and joints</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    Keep the elements at bay by letting me expertly over-seal every nook and cranny of your caravan. 
-                    A little TLC goes a long way in preserving your mobile haven from the unpredictable UK weather.
-                  </p>
-                </div>
-              </div>
-            </div>
-          
-            <div id="chasisRepair" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
-                      <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61"/>
-                      <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9m-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376M3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Chassis service and repairs</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    Your caravan's chassis is its backbone. I'll ensure it stays sturdy and reliable, ready to tackle winding roads and unexpected bumps, 
-                    so you can cruise with confidence.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div id="toiletRepair" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bucket-fill" viewBox="0 0 16 16">
-                      <path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Toilet repairs </span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    No need to hold it in! My quick and efficient toilet repairs will have your onboard facilities functioning flawlessly, 
-                    ensuring comfort and convenience during your travels.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div id="solarPanel" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun-fill" viewBox="0 0 16 16">
-                      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Solar panel Installation</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    Embrace eco-friendly power with my solar panel installations. Let the sun work its magic and keep your caravan charged up, 
-                    so you can enjoy off-grid adventures without a worry.
-                  </p>
-                </div>
-              </div>
-            </div>          
-
-            <div id="dampReport" class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  <div class="pe-4 4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moisture" viewBox="0 0 16 16">
-                      <path d="M13.5 0a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V7.5h-1.5a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V15h-1.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .5-.5V.5a.5.5 0 0 0-.5-.5zM7 1.5l.364-.343a.5.5 0 0 0-.728 0l-.002.002-.006.007-.022.023-.08.088a28.458 28.458 0 0 0-1.274 1.517c-.769.983-1.714 2.325-2.385 3.727C2.368 7.564 2 8.682 2 9.733 2 12.614 4.212 15 7 15s5-2.386 5-5.267c0-1.05-.368-2.169-.867-3.212-.671-1.402-1.616-2.744-2.385-3.727a28.458 28.458 0 0 0-1.354-1.605l-.022-.023-.006-.007-.002-.001zm0 0-.364-.343zm-.016.766L7 2.247l.016.019c.24.274.572.667.944 1.144.611.781 1.32 1.776 1.901 2.827H4.14c.58-1.051 1.29-2.046 1.9-2.827.373-.477.706-.87.945-1.144zM3 9.733c0-.755.244-1.612.638-2.496h6.724c.395.884.638 1.741.638 2.496C11 12.117 9.182 14 7 14s-4-1.883-4-4.267"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <span>Damp reports</span>
-                  </div>
-                </button>
-              </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    This is included in both the Caravan Service and Habitation Check. A Full check of the vehicle to see if there's any
-                    serious water ingress or dampness.
-                  </p>
-                </div>
-              </div>
-            </div> 
+   
           </div>
-        </div>
-      </main>
-      <footer class="text-center d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 ">© 2023 Country Caravan Care</p>
-        <a href="https://www.mobilecaravanengineers.co.uk/item/country-caravan-services/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          <img src="images/1 small MCEA-Colour-collective.jpg" alt="MCEA Logo" class="mcea img-fluid img-thumbnail">
-        </a>
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link px-2 text-white">About</a></li>
-          <li class="nav-item"><a href="#services" class="nav-link px-2 text-white">Services</a></li>
-        </ul>
-      </footer>
-    </div>
-  </body>
+          
+        </section>
+    </main>
+    <script>
+      window.addEventListener('scroll', function() {
+    var navbar = document.getElementById('navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('nav-scroll');
+    } else {
+        navbar.classList.remove('nav-scroll');
+    }
+});
+    </script>
+</body>
 </html>

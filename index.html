@@ -393,7 +393,7 @@
         </div>
       </main>
       <footer class="text-center d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 ">© 2023 Country Caravan Care</p>
+        <p class="col-md-4 mb-0 " id="copyRight">© 2023 Country Caravan Care</p>
         <a href="https://www.mobilecaravanengineers.co.uk/item/country-caravan-services/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <img src="images/1 small MCEA-Colour-collective.jpg" alt="MCEA Logo" class="mcea img-fluid img-thumbnail">
         </a>
@@ -405,4 +405,7 @@
       </footer>
     </div>
   </body>
+  <script>
+    document.getElementById("copyRight").innerHTML = "© " + new Date().getFullYear() + " Country Caravan Care";
+  </script>
 </html>

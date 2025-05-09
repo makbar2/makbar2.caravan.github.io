@@ -1,0 +1,77 @@
+
+/* ---GLOBAL BASIC STUFF--- */
+/* Global styles applied to all elements */
+* {
+   
+  color: white;
+  font-family: "Roboto", serif;
+    
+}
+/* Basic body styling */
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  background-color: rgb(50, 55, 60) !important;
+}
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+}
+
+#navbar-misc {
+  color: rgb( 151, 201, 178)
+}
+
+
+
+/* MAIN CONTENT STUFF */
+/* Ensures list items remain readable on dark backgrounds */
+.list-group-item {
+  color: white !important;
+}
+ 
+/* Hover effect for contact icons */
+.iconHover:hover{
+  transform: scale(1.1) !important;
+}
+
+
+/* ACCORDION STYLING */
+.accordion-item{
+  border: rgb(33, 37, 41) ;
+}
+
+.accordion-button {
+  background-color: rgb(33, 37, 41) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Custom accordion toggle arrow (white) */
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+/* Accordion body background */
+.accordion-body{
+  background-color: rgb(50, 55, 60);
+}
+
+/* Removes outline when accordion button is focused */
+.accordion-button:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+
+
+/* ---FOOTER STUFF--- */
+/* MCEA Logo image sizing */
+.mcea
+{
+  max-width: 50%;
+  max-height: 50%;
+}

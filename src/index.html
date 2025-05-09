@@ -6,7 +6,7 @@
     <title>Country Caravan Care</title>
     <meta name="description" content="caravan repair website">
     <meta  name="keywords" content="caravan,repair,Habitation,service">
-    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="/data/images/favicon-32x32.png">
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -21,49 +21,40 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <header class="bg-success rounded-bottom">
     <div class="container">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="./">
-                  Home 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  Contact 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">
-                  Services
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="./">Home </a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact </a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <body id="top">
+    <div class="container">
       <main class="pb-4">
         <div class="row pb-4">
           <div class="col-md">
             <div id="logo" class="row border-bottom border-white">
               <picture>
                 <img
-                  src="images/logo-transparentWhiteFontTemp-png.png"
+                  src="/data/images/logo-transparentWhiteFontTemp-png.png"
                   alt="CountryCaravanLogo"
                   class="img-fluid"
                   style="width: 100%"
@@ -150,7 +141,7 @@
           </div>
           <div id="image" class="col-md d-flex justify-content-center align-items-center text-center">
             <picture>
-              <img src="images/travelling-6907267_1920.jpg" class="img-fluid img-thumbnail" alt="temporary photo" />
+              <img src="/data/images/travelling-6907267_1920.jpg" class="img-fluid img-thumbnail" alt="temporary photo" />
             </picture>
           </div>
         </div>
@@ -200,7 +191,6 @@
             </div>
 
         </div>
-
           <div class="row pt-1 pb-2 bg-success rounded-bottom">
     
           <div class="accordion " id="accordionExample">
@@ -217,7 +207,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     Hot showers are a must, even when you're on the move. I will swiftly tackle any water heater hiccups, 
@@ -240,7 +230,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     Whether it's setting up a new power system or fixing an existing one, i've got the volts covered. 
@@ -264,7 +254,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseEight" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseEight" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     Don't let a malfunctioning fridge spoil your on-the-road feast. I will have your fridge humming back to life, 
@@ -287,7 +277,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     Keep the elements at bay by letting me expertly over-seal every nook and cranny of your caravan. 
@@ -311,7 +301,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseFour" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseFour" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     Your caravan's chassis is its backbone. I'll ensure it stays sturdy and reliable, ready to tackle winding roads and unexpected bumps, 
@@ -334,7 +324,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseFive" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseFive" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     No need to hold it in! My quick and efficient toilet repairs will have your onboard facilities functioning flawlessly, 
@@ -357,7 +347,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseSix" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseSix" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     Embrace eco-friendly power with my solar panel installations. Let the sun work its magic and keep your caravan charged up, 
@@ -380,7 +370,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse text-light" data-bs-parent="#accordionExample">
+              <div id="collapseSeven" class="accordion-collapse collapse text-light">
                 <div class="accordion-body">
                   <p>
                     This is included in both the Caravan Service and Habitation Check. A Full check of the vehicle to see if there's any
@@ -392,17 +382,48 @@
           </div>
         </div>
       </main>
-      <footer class="text-center d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 ">© 2023 Country Caravan Care</p>
-        <a href="https://www.mobilecaravanengineers.co.uk/item/country-caravan-services/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          <img src="images/1 small MCEA-Colour-collective.jpg" alt="MCEA Logo" class="mcea img-fluid img-thumbnail">
-        </a>
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link px-2 text-white">About</a></li>
-          <li class="nav-item"><a href="#services" class="nav-link px-2 text-white">Services</a></li>
-        </ul>
-      </footer>
     </div>
+    <footer class="bg-success text-white py-4 rounded-top">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <!-- Left: Copyright -->
+          <div class="col-md-4 text-md-start mb-3 mb-md-0">
+            <p id="navbar-misc" class="mb-0">© 2025 Country Caravan Care</p>
+          </div>
+    
+          <!-- Center: MCEA Logo -->
+          <div class="col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
+            <a href="https://www.mobilecaravanengineers.co.uk/item/country-caravan-services/">
+              <img src="../data/images/1 small MCEA-Colour-collective.jpg" alt="MCEA Logo" class="img-fluid img-thumbnail" style="max-height: 125px;">
+            </a>
+          </div>
+    
+          <!-- Right: Navbar -->
+          <div class="col-md-4 d-flex justify-content-md-end justify-content-center">
+            <nav class="navbar navbar-expand-md navbar-dark p-0">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#footerNavbar"
+                aria-controls="footerNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="footerNavbar">
+                <ul class="navbar-nav ms-md-auto">
+                  <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

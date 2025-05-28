@@ -9,8 +9,6 @@ A static, responsive website built with HTML5, CSS3, and Bootstrap for Country C
 - Clean and minimalist design for clarity and professionalism
 - Responsive layout using Bootstrap 4 for compatibility across devices
 - Clear sectioning for services, contact info, and business details
-- Static hosting via GitHub Pages for zero ongoing hosting cost
-- Easy to maintain and edit for future content updates
 
 ## 🛠 Tech Stack
 
